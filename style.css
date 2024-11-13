@@ -1,0 +1,86 @@
+/* style.css */
+
+/* Styling untuk body dan container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styling untuk summary section */
+.summary {
+    margin-bottom: 20px;
+}
+
+.summary h2 {
+    font-size: 24px;
+    color: #444;
+}
+
+.summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.summary ul li {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Styling untuk tabel data */
+.nilai-suhu table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.nilai-suhu th, .nilai-suhu td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.nilai-suhu th {
+    background-color: #f1f1f1;
+    font-size: 18px;
+}
+
+.nilai-suhu td {
+    font-size: 16px;
+}
+
+/* Styling untuk bulan dan tahun */
+.month-year {
+    margin-top: 20px;
+}
+
+.month-year h2 {
+    font-size: 24px;
+    color: #444;
+}
+
+.month-year ul {
+    list-style: none;
+    padding: 0;
+}
+
+.month-year ul li {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
